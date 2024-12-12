@@ -11,3 +11,8 @@ console.log(header);
 const formInput = document.querySelectorAll('.form-input');
 console.log(formInput);
 
+
+
+mainEl.forEach(num => {
+    console.log(num);
+});
