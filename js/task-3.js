@@ -3,11 +3,13 @@ const fildEl = document.querySelector('#name-input');
 const nameInfo = document.querySelector('#name-output');
 
 fildEl.addEventListener('input', () => {
-  if (fildEl.value = 0) {
+  const inputValue = fildEl.value.trim();
+
+  if (inputValue.length === 0) {
     console.log(`Hello, ${nameInfo}`); 
   
 } else {
-   console.log(`Hello, ${fildEl.value}`);
+   console.log(`Hello, ${inputValue}`);
 }
 
  });
