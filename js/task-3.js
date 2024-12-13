@@ -1,9 +1,15 @@
 const fildEl = document.querySelector('#name-input');
-console.log(fildEl);
+
 const nameInfo = document.querySelector('#name-output');
 
 fildEl.addEventListener('input', () => {
-  console.log(fildEl.value=nameInfo);
+  if (fildEl.value = 0) {
+    console.log(`Hello, ${nameInfo}`); 
+  
+} else {
+   console.log(`Hello, ${fildEl.value}`);
+}
+
  });
 
 
