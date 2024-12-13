@@ -6,10 +6,10 @@ fildEl.addEventListener('input', () => {
   const inputValue = fildEl.value.trim();
 
   if (inputValue.length === 0) {
-    console.log(`Hello, ${nameInfo}`); 
+   nameInfo.textContent ='Anonymous'; 
   
 } else {
-   console.log(`Hello, ${inputValue}`);
+   nameInfo.textContent = inputValue;
 }
 
  });
