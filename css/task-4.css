@@ -1,0 +1,17 @@
+input,
+textarea,
+button {
+    font-family: inherit;
+    line-height: inherit;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 360px;
+    padding: 24px;
+}
+.form-1 {
+    display: flex;
+    flex-direction: column;
+}
