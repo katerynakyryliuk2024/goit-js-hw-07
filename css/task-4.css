@@ -11,7 +11,36 @@ button {
     max-width: 360px;
     padding: 24px;
 }
-.form-1 {
+
+.form-button {
+    display: inline-flex;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    align-self: flex-start;
+    cursor: pointer;
+    font-family: inherit;
+    background: #4e75ff;
+    color: #fff;
+    font-size: inherit;
+    border: none;
+    margin-top: 8px;
+}
+.form-button:hover,
+.form-button:focus {
+    background-color: #6c8cff;
+}
+.form-label {
     display: flex;
-    flex-direction: column;
+ flex-direction: column;
+ gap: 8px;
+
+}
+.form-input {
+    width: 360px;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+   
 }
