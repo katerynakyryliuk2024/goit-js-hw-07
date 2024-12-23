@@ -12,12 +12,12 @@ formEl.addEventListener('submit', event => {
         [password]: formEl.elements.password.value,
     };
 
-    if (email === '' || password === '') {
+    if (formEl.elements.email.value === '' || formEl.elements.password.value === '') {
     return alert('All form fields must be filled in');
     
 }
 
-    console.log(`email: ${email}, password: ${password}`);
+    console.log(`email: ${formEl.elements.email.value}, password: ${formEl.elements.password.value}`);
     
     formEl.reset();
 });
