@@ -3,8 +3,8 @@ console.dir(formEl);
 formEl.addEventListener('submit', event => {
     event.preventDefault();
 
-    const email = formEl.elements.email.value;
-    const password = formEl.elements.password.value;
+    const email = formEl.elements.email.name;
+    const password = formEl.elements.password.name;
 
     const formData = {
        
