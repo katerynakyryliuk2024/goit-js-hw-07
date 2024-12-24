@@ -19,7 +19,6 @@ formEl.addEventListener('submit', event => {
 
 console.log(formData);
 
-    //console.log(`email: ${formEl.elements.email.value}, password: ${formEl.elements.password.value}`);//
     
     formEl.reset();
 });
