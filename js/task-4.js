@@ -13,13 +13,13 @@ formEl.addEventListener('submit', event => {
 
     const formData = {
        
-        [email]: formEl.elements.email.value,
-        [password]: formEl.elements.password.value,
+        email: formEl.elements.email.value,
+        password: formEl.elements.password.value,
     };
 
+console.log(formData);
 
-
-    console.log(`email: ${formEl.elements.email.value}, password: ${formEl.elements.password.value}`);
+    //console.log(`email: ${formEl.elements.email.value}, password: ${formEl.elements.password.value}`);//
     
     formEl.reset();
 });
